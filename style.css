@@ -306,6 +306,10 @@ footer img {
     display: inline-block;
   }
 
+  .banner {
+    background-position: top;
+  }
+
   img {
     width: 20%;
   }
