@@ -307,7 +307,8 @@ footer img {
   }
 
   .banner {
-    background-position: top;
+    background-image: url("images/division_images5a77bdbbd58e1_mobile_ml-banner-mob640.jpg");
+    background-size: auto;
   }
 
   img {
