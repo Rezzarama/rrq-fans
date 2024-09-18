@@ -307,8 +307,8 @@ footer img {
   }
 
   .banner {
-    background-image: url("images/division_images5a77bdbbd58e1_mobile_ml-banner-mob640.jpg");
-    background-size: auto;
+    background-size: 100%;
+    background-position: inherit;
   }
 
   img {
@@ -341,5 +341,8 @@ footer img {
 
   footer {
     margin-top: 20px;
+  }
+  .footer-nav P {
+    display: none;
   }
 }
