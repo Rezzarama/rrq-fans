@@ -86,12 +86,12 @@ nav ul li a {
   background-color: #d2bc9e;
 }
 
-main {
+#content {
   display: flex;
   gap: 2rem;
   margin: 0 30px;
 }
-#content {
+.middle {
   flex: 4;
 }
 
@@ -205,7 +205,8 @@ h1 {
 }
 .slider {
   position: relative;
-  max-width: 40%;
+  max-width: 30%;
+  min-width: 300px;
   margin: auto;
   overflow: hidden;
   border-radius: 10px;
@@ -223,10 +224,6 @@ h1 {
   width: 100%;
   border-radius: 10px;
 }
-.prev,
-.next {
-  background-color: #b1aeae;
-}
 
 .active {
   display: block;
@@ -238,14 +235,11 @@ h1 {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
+  padding-inline: 16px;
+  color: rgb(243, 218, 56);
   font-weight: bold;
-  font-size: 24px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
 }
 
 .next {
@@ -309,7 +303,7 @@ footer img {
 }
 
 @media (max-width: 768px) {
-  main {
+  #content {
     display: inline-block;
   }
 
